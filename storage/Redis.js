@@ -3,10 +3,10 @@ const redis = require('redis');
 class Redis {
   constructor() {
     this.client = redis.createClient({
-      password: '',
+      password: 'pgi8voY622QbIiXO7ZU2a9PoyfDYzfRI',
       socket: {
-        host: '',
-        port: 1234
+        host: 'redis-10024.c311.eu-central-1-1.ec2.cloud.redislabs.com',
+        port: 10024
       },
       legacyMode: true
     });
